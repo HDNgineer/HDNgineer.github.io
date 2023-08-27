@@ -12,6 +12,7 @@ body {
     top: 0;
     z-index: 100;
     width: 100%;
+    display: flex;
 }
 
 .navbar a {
