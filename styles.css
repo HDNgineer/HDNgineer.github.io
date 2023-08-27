@@ -45,11 +45,11 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Memastikan setiap sesi memenuhi tinggi layar */
     position: relative;
     overflow: hidden; /* Menghilangkan konten yang keluar dari sesi */
     padding: 2rem;
     box-sizing: border-box; /* Memastikan padding tidak menambah lebar konten */
+    background-color: #3498db; /* Contoh latar belakang */
 }
 
 .section h2,
@@ -57,26 +57,21 @@ main {
     z-index: 1; /* Mengatur z-index untuk konten agar muncul di atas lapisan */
 }
 
-.section-1 {
-    background-color: #3498db;
-}
-
 .section-2 {
-    background-color: #e74c3c;
+    background-color: #e74c3c; /* Contoh latar belakang */
 }
 
 .section-3 {
-    background-color: #27ae60;
+    background-color: #27ae60; /* Contoh latar belakang */
 }
 
 .section-4 {
-    background-color: #f39c12;
+    background-color: #f39c12; /* Contoh latar belakang */
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-    width: 100%;
+@media screen and (max-width: 768px) {
+    .section {
+        flex-direction: column; /* Mengatur tata letak menjadi vertikal pada layar kecil */
+        align-items: center;
+    }
 }
