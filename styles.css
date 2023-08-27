@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Menghilangkan scroll horizontal pada seluruh halaman */
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    position: sticky; /* Membuat navbar tetap di atas saat scroll */
+    top: 0;
+    z-index: 100; /* Menempatkan navbar di atas konten lainnya */
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+header {
+    color: #333;
+    text-align: center;
+    padding: 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column; /* Menyusun sesi secara vertikal */
+}
+
+.section {
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Memastikan setiap sesi memenuhi tinggi layar */
+    position: relative;
+    overflow: hidden; /* Menghilangkan konten yang keluar dari sesi */
+    padding: 2rem;
+    box-sizing: border-box; /* Memastikan padding tidak menambah lebar konten */
+}
+
+.section h2,
+.section p {
+    z-index: 1; /* Mengatur z-index untuk konten agar muncul di atas lapisan */
+}
+
+.section-1 {
+    background-color: #3498db;
+}
+
+.section-2 {
+    background-color: #e74c3c;
+}
+
+.section-3 {
+    background-color: #27ae60;
+}
+
+.section-4 {
+    background-color: #f39c12;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+}
