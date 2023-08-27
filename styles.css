@@ -1,16 +1,16 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Menghilangkan scroll horizontal pada seluruh halaman */
+    overflow-x: hidden;
 }
 
 .navbar {
     background-color: #333;
     overflow: hidden;
-    position: sticky; /* Membuat navbar tetap di atas saat scroll */
+    position: sticky;
     top: 0;
-    z-index: 100; /* Menempatkan navbar di atas konten lainnya */
+    z-index: 100;
 }
 
 .navbar a {
@@ -35,7 +35,7 @@ header {
 
 main {
     display: flex;
-    flex-direction: column; /* Menyusun sesi secara vertikal */
+    flex-direction: column;
 }
 
 .section {
@@ -46,32 +46,65 @@ main {
     justify-content: center;
     align-items: center;
     position: relative;
-    overflow: hidden; /* Menghilangkan konten yang keluar dari sesi */
+    overflow: hidden;
     padding: 2rem;
-    box-sizing: border-box; /* Memastikan padding tidak menambah lebar konten */
-    background-color: #3498db; /* Contoh latar belakang */
+    box-sizing: border-box;
+    background-color: #3498db;
 }
 
 .section h2,
 .section p {
-    z-index: 1; /* Mengatur z-index untuk konten agar muncul di atas lapisan */
+    z-index: 1;
 }
 
 .section-2 {
-    background-color: #e74c3c; /* Contoh latar belakang */
+    background-color: #e74c3c;
 }
 
 .section-3 {
-    background-color: #27ae60; /* Contoh latar belakang */
+    background-color: #27ae60;
 }
 
 .section-4 {
-    background-color: #f39c12; /* Contoh latar belakang */
+    background-color: #f39c12;
 }
 
-@media screen and (max-width: 768px) {
-    .section {
-        flex-direction: column; /* Mengatur tata letak menjadi vertikal pada layar kecil */
-        align-items: center;
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title::after {
+    content: '|';
+    display: inline-block;
+    color: black;
+    animation: blinking 0.7s step-end infinite, blinkCursor 0.7s infinite;
+    margin-left: 5px;
+    position: relative;
+    top: -4px;
+}
+
+
+@keyframes blinking {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+@keyframes blinkCursor {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(2px);
     }
 }
