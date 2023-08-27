@@ -6,7 +6,7 @@ body {
 }
 
 .navbar {
-    background-color: #333;
+    background-color: #ebf6f6;
     overflow: hidden;
     position: sticky;
     top: 0;
@@ -16,7 +16,7 @@ body {
 .navbar a {
     float: left;
     display: block;
-    color: white;
+    color: rgb(79, 128, 160);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -31,6 +31,8 @@ header {
     color: #333;
     text-align: center;
     padding: 2rem;
+    background-color: #91C8E4;
+    color: #fff;
 }
 
 main {
@@ -49,7 +51,7 @@ main {
     overflow: hidden;
     padding: 2rem;
     box-sizing: border-box;
-    background-color: #3498db;
+    background-color: #749BC2;
 }
 
 .section h2,
@@ -58,20 +60,20 @@ main {
 }
 
 .section-2 {
-    background-color: #e74c3c;
+    background-color: #aecbd8;
 }
 
 .section-3 {
-    background-color: #27ae60;
+    background-color: #749BC2;
 }
 
 .section-4 {
-    background-color: #f39c12;
+    background-color: #91C8E4;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #ebf6f6;
+    color: rgb(79, 128, 160);
     text-align: center;
     padding: 1rem;
     width: 100%;
@@ -90,7 +92,7 @@ footer {
     content: '|';
     font-size: 70px;
     display: inline-block;
-    color: black;
+    color: #fff;
     animation: blinking 0.7s step-end infinite, blinkCursor 0.7s infinite;
     margin-left: 5px;
     position: relative;
