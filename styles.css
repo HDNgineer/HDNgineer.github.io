@@ -80,15 +80,26 @@ footer {
     align-items: center;
 }
 
+.header-title {
+    font-size: 3.7rem; /* Ukuran font diperbesar menjadi 5rem */
+    position: relative;
+    display: inline-block;
+}
+
 .header-title::after {
     content: '|';
+    font-size: 70px;
     display: inline-block;
     color: black;
     animation: blinking 0.7s step-end infinite, blinkCursor 0.7s infinite;
     margin-left: 5px;
     position: relative;
-    top: -4px;
+    top: -13px;
+    width: 0.2em;
+    font-weight: 300; /* Mengatur ketebalan font karakter "|" */
+    vertical-align: middle;
 }
+
 
 
 @keyframes blinking {
