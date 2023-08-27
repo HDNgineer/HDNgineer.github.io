@@ -11,6 +11,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 100;
+    width: 100%;
 }
 
 .navbar a {
@@ -43,6 +44,7 @@ main {
 }
 
 .section {
+    width: 100%;
     text-align: center;
     color: #fff;
     display: flex;
@@ -53,9 +55,11 @@ main {
     overflow: hidden;
     padding: 2rem;
     box-sizing: border-box;
-    background-color: #67cce6;
 }
 
+.section-1 {
+    background-color: #67cce6;
+}
 .section-1 p {
     text-align: left;
 }
