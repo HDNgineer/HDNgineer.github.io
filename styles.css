@@ -2,7 +2,6 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 }
 
 .navbar {
@@ -90,7 +89,6 @@ footer {
     background-color: #cfeeee;
     color: rgb(79, 128, 160);
     text-align: center;
-    padding: 1rem;
     width: 100%;
     display: flex;
     justify-content: center;
