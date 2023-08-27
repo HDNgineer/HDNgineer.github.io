@@ -28,11 +28,13 @@ body {
 }
 
 header {
-    color: #333;
+    background-image: url(/Resources/bg.jpg);
+    background-size: cover; /* Menyesuaikan gambar agar mengisi seluruh area header */
+    background-position: center; /* Mengatur posisi gambar ke tengah */
+    background-attachment: fixed; /* Menjaga latar belakang tetap saat menggulir */
+    color: #fff;
     text-align: center;
     padding: 2rem;
-    background-color: #91C8E4;
-    color: #fff;
 }
 
 main {
@@ -51,7 +53,7 @@ main {
     overflow: hidden;
     padding: 2rem;
     box-sizing: border-box;
-    background-color: #749BC2;
+    background-color: #67cce6;
 }
 
 .section h2,
@@ -60,15 +62,15 @@ main {
 }
 
 .section-2 {
-    background-color: #aecbd8;
+    background-color: #97c4d8;
 }
 
 .section-3 {
-    background-color: #749BC2;
+    background-color: #89b8e7;
 }
 
 .section-4 {
-    background-color: #91C8E4;
+    background-color: #67cce6;
 }
 
 footer {
@@ -83,7 +85,7 @@ footer {
 }
 
 .header-title {
-    font-size: 3.7rem; /* Ukuran font diperbesar menjadi 5rem */
+    font-size: 3.6rem; /* Ukuran font diperbesar */
     position: relative;
     display: inline-block;
 }
