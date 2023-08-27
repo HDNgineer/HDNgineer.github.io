@@ -56,25 +56,33 @@ main {
     background-color: #67cce6;
 }
 
-.section h2,
-.section p {
-    z-index: 1;
+.section-1 p {
+    text-align: left;
 }
 
 .section-2 {
     background-color: #a2dae4;
 }
+.section-2 p {
+    text-align: right;
+}
 
 .section-3 {
     background-color: #89d4e7;
+}
+.section-3 p {
+    text-align: left;
 }
 
 .section-4 {
     background-color: #67cce6;
 }
+.section-4 p {
+    text-align: right;
+}
 
 footer {
-    background-color: #ebf6f6;
+    background-color: #cfeeee;
     color: rgb(79, 128, 160);
     text-align: center;
     padding: 1rem;
