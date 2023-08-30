@@ -60,6 +60,14 @@ main {
 .section-1 {
     background-color: #67cce6;
 }
+ .pgrup img {
+    width: 25%;
+    height: 25%;
+    border-radius: 10px;
+    padding: 5px;
+    flex-direction: row;
+    margin-right: auto;
+}
 .section-1 p {
     text-align: left;
 }
@@ -96,9 +104,11 @@ footer {
 }
 
 .header-title {
-    font-size: 3.6rem; /* Ukuran font diperbesar */
+    font-size: 260%; /* Ukuran font diperbesar */
     position: relative;
     display: inline-block;
+    padding-top: 15%;
+    padding-bottom: 20%;
 }
 
 .header-title::after {
