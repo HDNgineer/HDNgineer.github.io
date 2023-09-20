@@ -61,12 +61,13 @@ main {
     background-color: #67cce6;
 }
 .pgrup img {
-    width: 30%;
-    height: 30%;
-    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
     padding: 3px;
     flex-direction: row;
 }
+
 
 .section-1 p {
     text-align: left;
